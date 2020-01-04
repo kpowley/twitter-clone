@@ -1,0 +1,41 @@
+/* Heading */
+.title {
+  text-align: center;
+}
+.title h1 {
+  margin-bottom: 0px;
+}
+.title span {
+  font-size: 25px;
+}
+
+/* Content Area */
+.new-form,
+.tweets {
+  width: 90%;
+  margin: 0 auto;
+}
+@media screen and (min-width: 600px) {
+  .new-form,
+  .tweets {
+    width: 50%;
+  }
+}
+
+/* Tweets */
+.tweets div {
+  border-bottom: 1px solid grey;
+  margin-top: 30px;
+  padding-bottom: 20px;
+}
+.tweets div h3,
+.tweets div p {
+  margin-bottom: 0px;
+}
+
+/* Loading */
+.loading {
+  text-align: center;
+  max-width: 100px;
+  margin: 0 auto;
+}

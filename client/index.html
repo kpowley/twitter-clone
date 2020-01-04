@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="./skeleton.css" />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>🦆Quacker</title>
+  </head>
+  <body>
+    <header class="title">
+      <h1>🦆 Quacker</h1>
+      <span>Twttier for Ducks</span>
+    </header>
+    <main>
+      <!-- Tweet form -->
+      <form class="new-form">
+        <label for="name">Username</label>
+        <input class="u-full-width" type="text" id="name" name="name" />
+        <label for="content">Quack</label>
+        <textarea
+          class="u-full-width"
+          type="text"
+          id="content"
+          name="content"
+        ></textarea>
+        <button class="button-primary">Send Quack 💬</button>
+      </form>
+
+      <!-- Loading gif -->
+      <div class="loading">
+        <img src="./loading.gif" alt="loading" />
+      </div>
+
+      <!-- Tweets container -->
+      <div class="tweets"></div>
+    </main>
+    <script src="client.js"></script>
+  </body>
+</html>
